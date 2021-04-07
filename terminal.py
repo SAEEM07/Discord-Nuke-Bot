@@ -11,18 +11,18 @@ intents.members = True
 
 ###########SETUP###############
  = "?"                                                       #
-token = "TOKEN"                                            #
-spam_messages = "Spam message"         #
+token = "ODI5Mzg5MzIyNjE2NTY5ODk4.YG3a_w.AtdcO8JVKAtLcWfCuCyQhFKtUyI"                                            #
+spam_messages = "TUM GADHE HO"         #
 massdm = "Currently broken.."                    #
-rolenames = "Role Names To Spam"         #                                                            
-channels = "Channels To Spam Names"  #
+rolenames = "@everyone"         #                                                            
+channels = "SAEEM OP"  #
 ##############################
 
 def Clear():
     os.system('cls')
 
 
-bot = commands.Bot(command_prefix = prefix)
+bot = commands.Bot(command_prefix = $)
 bot.remove_command("help")
 
 
